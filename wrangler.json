@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "form1-d1-template",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "a7141cad-a00f-4519-b820-6f9a4e6eead0",
+			"database_name": "news-test-one"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
