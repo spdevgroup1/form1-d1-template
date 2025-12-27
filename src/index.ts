@@ -5,7 +5,7 @@ export default {
 		const stmt = env.DB.prepare("SELECT * FROM comments LIMIT 5");
 		const { results } = await stmt.all();
 
-		return new Response(renderHtml(JSON.stringify(results, null, 2)), {
+		return new Response(renderHtml(JSON.stringify(results, null, 3)), {
 			headers: {
 				"content-type": "text/html",
 			},
